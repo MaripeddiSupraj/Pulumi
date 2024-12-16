@@ -1,0 +1,5 @@
+config:
+  aws:region: us-west-2
+  aws_templates:instanceType: t3.micro
+  aws_templates:vpcNetworkCidr: 10.0.0.0/16
+  pulumi:template: vm-aws-yaml
